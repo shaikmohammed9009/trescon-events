@@ -69,51 +69,51 @@ export function Contact() {
             {/* Three cards with images - horizontal scrollable on mobile */}
             <div className="flex overflow-x-auto md:grid md:grid-cols-3 gap-2 md:gap-3 max-w-md pb-4">
               {/* Card 1 */}
-              <div className="bg-[#00A5A3] flex-shrink-0 flex flex-col h-[180px] md:h-[220px] max-[320px]:w-[94px] max-[375px]:w-[110px] w-[124px] md:w-auto">
+              <div className="bg-[#00A5A3] flex-shrink-0 flex flex-col h-[180px] md:h-[220px] max-w-[124px] max-[400px]:w-[115px] max-[375px]:w-[90px] max-[320px]:w-[85px] md:w-auto">
                 <div className="flex justify-center relative items-center flex-1">
                   <img 
                     src="/sanjiv_sing.png" 
                     alt="Sanjiv Singh"
                     width="110"
                     height="110"
-                    className="object-cover absolute bottom-0 max-[320px]:w-[80px] max-[320px]:h-[80px] md:w-[142px] md:h-[142px]"
+                    className="object-cover absolute bottom-0 max-[400px]:w-[90px] max-[400px]:h-[90px] max-[320px]:w-[75px] max-[320px]:h-[75px] md:w-[142px] md:h-[142px]"
                   />
                 </div>
-                <div className="bg-[#1E2124] p-3">
+                <div className="bg-[#1E2124] p-3 max-[320px]:p-2">
                   <h4 className="text-[#00A5A3] text-[14px] font-['Anek_Devanagari'] font-[600] text-center">Sanjiv Singh</h4>
                   <p className="text-white text-[12px] font-manrope font-[400] text-center">Event Solutions</p>
                 </div>
               </div>
               
               {/* Card 2 */}
-              <div className="bg-[#F4ED3C] flex-shrink-0 flex flex-col h-[180px] md:h-[220px] max-[320px]:w-[94px] max-[375px]:w-[110px] w-[124px] md:w-auto">
+              <div className="bg-[#F4ED3C] flex-shrink-0 flex flex-col h-[180px] md:h-[220px] max-w-[124px] max-[400px]:w-[115px] max-[375px]:w-[90px] max-[320px]:w-[85px] md:w-auto">
                 <div className="flex justify-center relative items-center flex-1">
                   <img 
                     src="/Vijay_Walter_image.png" 
                     alt="Vijay Walter"
                     width="110"
                     height="110"
-                    className="object-cover absolute bottom-0 max-[320px]:w-[80px] max-[320px]:h-[80px] md:w-[142px] md:h-[142px]"
+                    className="object-cover absolute bottom-0 max-[400px]:w-[90px] max-[400px]:h-[90px] max-[320px]:w-[75px] max-[320px]:h-[75px] md:w-[142px] md:h-[142px]"
                   />
                 </div>
-                <div className="bg-[#1E2124] p-3">
+                <div className="bg-[#1E2124] p-3 max-[320px]:p-2">
                   <h4 className="text-[#00A5A3] text-[14px] font-['Anek_Devanagari'] font-[600] text-center">Vijay Walter</h4>
                   <p className="text-white text-[12px] font-manrope font-[400] text-center">Event Strategy</p>
                 </div>
               </div>
               
               {/* Card 3 */}
-              <div className="bg-[#C0F43C] flex-shrink-0 flex flex-col h-[180px] md:h-[220px] max-[320px]:w-[94px] max-[375px]:w-[110px] w-[124px] md:w-auto">
+              <div className="bg-[#C0F43C] flex-shrink-0 flex flex-col h-[180px] md:h-[220px] max-w-[124px] max-[400px]:w-[115px] max-[375px]:w-[90px] max-[320px]:w-[85px] md:w-auto">
                 <div className="flex justify-center relative items-center flex-1">
                   <img 
                     src="/Christine.png" 
                     alt="Christine"
                     width="90"
                     height="90"
-                    className="object-cover absolute bottom-0 max-[320px]:w-[70px] max-[320px]:h-[70px] md:w-[114px] md:h-[114px]"
+                    className="object-cover absolute bottom-0 max-[400px]:w-[80px] max-[400px]:h-[80px] max-[320px]:w-[65px] max-[320px]:h-[65px] md:w-[114px] md:h-[114px]"
                   />
                 </div>
-                <div className="bg-[#1E2124] p-3">
+                <div className="bg-[#1E2124] p-3 max-[320px]:p-2">
                   <h4 className="text-[#00A5A3] text-[14px] font-['Anek_Devanagari'] font-[600] text-center">Christine Lee</h4>
                   <p className="text-white text-[12px] font-manrope font-[400] text-center">Client Relations</p>
                 </div>
