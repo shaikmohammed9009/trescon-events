@@ -1,0 +1,5 @@
+<svg width="150" height="40" viewBox="0 0 150 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M20 8H130" stroke="#CDFF00" stroke-width="2"/>
+  <text x="20" y="28" font-family="Manrope" font-size="24" fill="#CDFF00">trescon</text>
+  <text x="100" y="28" font-family="Manrope" font-size="16" fill="white">events</text>
+</svg>
