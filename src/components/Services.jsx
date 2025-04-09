@@ -89,11 +89,7 @@ export function Services() {
       <img 
         src="/dot_4.png" 
         alt="background pattern" 
-        className="absolute right-0 bottom-0 z-0"
-        style={{
-          width: '400px',
-          height: '400px'
-        }}
+        className="absolute right-0 bottom-0 z-0 w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px]"
       />
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid md:grid-cols-[1fr,1.8fr] gap-12 items-start">
